@@ -1,0 +1,23 @@
+img {
+    height: 250px;
+    display: block;
+    border: 0px solid black;
+    transition: height .3s ease;
+}
+
+img:hover {
+    height: 280px;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.normal {
+    opacity: 1;
+}
+
+
+.blackOut {
+    background-color: black;
+}
